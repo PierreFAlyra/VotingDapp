@@ -6,6 +6,10 @@
     "test": "truffle test"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.1.7"
+    "@openzeppelin/contracts": "^4.9.2",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "dotenv": "^16.3.1",
+    "eth-gas-reporter": "^0.2.25"
   }
 }
