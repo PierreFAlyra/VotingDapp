@@ -3,7 +3,7 @@ import { Flex, Text, Heading, Spacer } from "@chakra-ui/react"
 import { useAccount } from 'wagmi'
 import { useState, useEffect } from 'react'
 import { createPublicClient, http, parseAbiItem } from 'viem'
-import { localhost } from 'viem/chains'
+import { localhost, goerli } from 'viem/chains'
 import { readContract } from '@wagmi/core'
 import { votingAddress, votingAbi } from "@/components/voting/utils"
 
@@ -19,7 +19,7 @@ const Voting = () => {
   const { isConnected, address } = useAccount()
 
   const client = createPublicClient({
-    chain: localhost,
+    chain: goerli,
     transport: http(),
   })
   
