@@ -3,5 +3,5 @@ import Contract from '../../contracts/Voting.json'
 export const adminBtnColor = "purple"
 export const voterBtnColor = "teal"
 
-export const votingAddress = "0xD71Dd1128cdE6f784688A8Cc7D9bc346E3d04fbC"
+export const votingAddress = "0x29aC7Fc292472E3C98aF1d84E0Eb484e4a2d116C"
 export const votingAbi = Contract.abi;
