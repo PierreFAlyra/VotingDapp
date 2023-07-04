@@ -2,7 +2,7 @@
 pragma solidity 0.8.20;
 
 /// @title A voting contract
-/// @author ibourn
+/// @author Frelot.P
 /// @notice You can use this contract for only one vote 
 /// @inheritdoc Ownable
 
